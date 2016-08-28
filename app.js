@@ -7,11 +7,34 @@ console.log('Testing Consolelog')
 $(this).on("keydown", function(e){
   if (e.keyCode == 65) {
     $('#car1').css({"padding-left": "+=50px"})
+    var yellowPadding = $('#car1').css("padding-left");
+    console.log(yellowPadding);
     console.log("You pressed A!");
+    if (yellowPadding === "750px"){
+      alert("Yellow Car Wins!")
+    }
   }
     else if (e.keyCode == 74) {
       $('#car2').css({"padding-left": "+=50px"})
+      var bluePadding = $('#car2').css("padding-left");
       console.log("You pressed J!");
+      console.log(bluePadding);
+      if (bluePadding === "750px"){
+        alert ("Blue Car Wins!")
+      }
+
+
+
     }
   });
+
+  $(".resetButton").click(function(){
+    location.reload();
+  });
+
+/*$( "#target" ).click(function() {
+  alert( "Handler for .click() called." );
+  */
+
+
 });
