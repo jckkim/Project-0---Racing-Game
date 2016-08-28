@@ -8,6 +8,17 @@
 }
 
 .resetButton {
-  margin-top: 100px;
+  margin-top: 20px;
   text-align: center;
+}
+
+
+.car {
+  height: 350px;
+}
+
+.title {
+  text-align: center;
+  font-size: 50px
+  font-family: 'Anton', sans-serif;
 }
