@@ -10,7 +10,7 @@ $(this).on("keydown", function(e){
     var yellowPadding = $('#car1').css("padding-left");
     console.log(yellowPadding);
     console.log("You pressed A!");
-    if (yellowPadding === "750px"){
+    if (yellowPadding === "950px"){
       alert("Yellow Car Wins!")
     }
   }
@@ -19,7 +19,7 @@ $(this).on("keydown", function(e){
       var bluePadding = $('#car2').css("padding-left");
       console.log("You pressed J!");
       console.log(bluePadding);
-      if (bluePadding === "750px"){
+      if (bluePadding === "950px"){
         alert ("Blue Car Wins!")
       }
 
