@@ -7,22 +7,29 @@ Location: SF
 
 ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)
 
+URL for racing game:
+http://surgeon-modes-67717.bitballoon.com/
 
 ***** READ ME *****
-Below is the pseudo code outline of the car race game. Still need more details under the "Development Stories" section.
+Ricky Bobby's Racers is an online game incorporating HTML, CSS, Javascript elements learned in WDI 31. Two players control their cars to reach the end of the line first, whereupon a message pops up indicating who won.
 
+Technologies used
+  HTML - the framework/structure of the website
+  CSS - the styling of page (google fonts, font sizes, center/right justified)
+  Javascript - the functionality (making the car images move across screen, pop up alert message when winner is decided)
+  JSQuery - the functionality (making the car images move across screen, pop up alert message when winner is decided)
+  Bootstrap - the format of the body
 
-#Training: Model a Game with OOP
+Unsolved problems
+  Starter clock
+  Finish Line marker
 
-
-You've learned about OOP, but let's look at how to **incorporate ojbect oriented programming patterns into a web site**.  This document has an example of how we might approach making a car race game.
 
 ### User Stories & Game Mechanics
 1. User 1 controls Car 1
 2. User 2 controls Car 2
 3. Users control speed of cars using keyboard
-4. Users control direction of cars using keyboard
-5. First user to cross finish line wins
+4. First user to cross finish line wins
 
 
 ### Data Structures for "Car Race" (Independent Practice)
@@ -59,7 +66,7 @@ Work with a partner to list some properties and methods of car and the game itse
 2. Either user can select START to begin countdown clock (3-2-1-GO)
 
 
-3. Once game starts, both players can use keyboard to advance cars forward and backward.
+3. Once game starts, both players can use keyboard to advance cars forward.
 
 5. First car to reach finish line wins.
 

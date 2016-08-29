@@ -1,7 +1,6 @@
 body {
   background: url("race car images/background.png") no-repeat center center fixed;
   background-size: cover;
-  opacity:0.2;
 }
 
 .box {
@@ -11,8 +10,9 @@ body {
 
 .resetButton {
   margin-top: 50px;
-  text-align: center;
-  font-size: 25px;
+  font-size: 35px;
+  color: black;
+  text-align: right;
 }
 
 img {
@@ -26,15 +26,22 @@ img {
 .title h1 {
     text-align: center;
     font-size: 80px;
-    font-family: 'Anton', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Merriweather Sans', sans-serif;
+    color: black;
 }
 
 .slogan {
   text-align: center;
-  font-family: 'Anton', sans-serif;
+  font-family: 'PT Sans', sans-serif;
+  font-family: 'Merriweather Sans', sans-serif;
+  color: black;
 }
 
 .Instructions {
-  font-family: 'Anton', sans-serif;
+  font-family: 'PT Sans', sans-serif;
+  font-family: 'Merriweather Sans', sans-serif;
   padding-bottom: 40px;
+  color: black;
+  text-align: right;
 }
